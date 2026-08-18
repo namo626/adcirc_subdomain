@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "adcirc_subdomain"
+version = "0.1.0"
+
+[project.scripts]
+adcirc_subdomain = "adcirc_subdomain.main:main"
